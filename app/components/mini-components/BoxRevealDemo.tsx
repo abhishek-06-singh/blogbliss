@@ -5,7 +5,7 @@ import me from "../images/me.jpg";
 export async function BoxRevealDemo() {
   return (
     <>
-      <div className="h-full w-full items-center justify-center overflow-hidden pt-8 ml-10">
+      <div className="h-full w-full items-center justify-center overflow-hidden pt-8 lg:ml-10">
         <BoxReveal boxColor={"#5046e6"} duration={0.5}>
           <div className="mt-[1.5rem]">
             <p className="w-full">
@@ -23,7 +23,7 @@ export async function BoxRevealDemo() {
         </BoxReveal>
       </div>
       <div className="flex justify-start items-center">
-        <div className="mt-6 w-[3rem] h-[3rem]  relative ml-10 ">
+        <div className="mt-6 w-[3rem] h-[3rem]  relative lg:ml-10 ">
           <Image
             src={me}
             alt="Header"
@@ -33,7 +33,7 @@ export async function BoxRevealDemo() {
             className="rounded-full"
           />
         </div>
-        <h3 className="text-black tracking-tight font-bold ml-3 mt-7 text-lg">
+        <h3 className="text-black tracking-tight font-bold lg:ml-3 mt-7 text-lg">
           Abhishek Singh Chauhan .
         </h3>
       </div>
